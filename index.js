@@ -25,7 +25,7 @@ console.log(ip4L);
 
 function binaryC1(x) {
     console.log(x);
-    const ip = Array.from(String(x), Number)
+    const ip = Array.from(String(x), Number);
 
     console.log(ip);
     console.log(ip[1]);
@@ -99,4 +99,4 @@ function binaryC1(x) {
 
 }
 
-console.log(binaryC1(000001));
+console.log(binaryC1(0111));
